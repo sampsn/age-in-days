@@ -14,12 +14,10 @@ export default function AgeCard() {
     setName(event.target.value);
   }
 
-  const ageInDays = age * 365;
-
 
   const calculateString = () => {
     if (name != undefined && age != undefined) {
-      setResult(`${name} is ${ageInDays} days old!`)
+      setResult(`${name} is ${age * 365} days old!`)
 
     }
   }
