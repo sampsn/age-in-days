@@ -1,0 +1,55 @@
+.card {
+  border: 1px solid darkslategrey;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 35rem;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
+
+.card h2 {
+  text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.card p {
+  text-align: center;
+}
+
+.result {
+  margin-top: 0.8rem;
+  height: 2.5rem;
+}
+
+.form {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form input {
+  margin-bottom: 2rem;
+}
+
+.form label {
+  margin-left: 0.6rem;
+}
+
+.form button {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border: none;
+  transition: transform 0.1s;
+}
+
+.form button:active {
+  transform: scale(0.99);
+}
